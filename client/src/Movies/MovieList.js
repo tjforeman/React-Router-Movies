@@ -38,7 +38,7 @@ function MovieDetails({ movie }) {
     <div className="movie-card">
     <Link to={`/movies/${movie.id}`}>
       <h2>{title}</h2>
-      </Link>
+      
       <div className="movie-director">
         Director: <em>{director}</em>
       </div>
@@ -50,9 +50,10 @@ function MovieDetails({ movie }) {
       {stars.map(star => (
         <div key={star} className="movie-star">
           {star}
+          
         </div>
       ))}
-      
+      </Link>
     </div>
   );
 }
