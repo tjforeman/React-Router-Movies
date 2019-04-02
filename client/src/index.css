@@ -40,9 +40,9 @@ Link{
   margin: 1rem auto;
   color:black;
   text-align:center;
-  width:30%;
-  padding-top:35px;
+  width:40%;
   padding-bottom:30px;
+  border-radius:5px;
 }
 
 .movie-director {
@@ -90,8 +90,8 @@ Link{
   border: 1px solid grey;
   padding: 5px 10px;
   background-color: lightseagreen;
-  margin-right:45%;
-  margin-bottom:20px;
+  margin-right:41%;
+  margin-top:214px;
 }
 .save-button:hover {
   background-color: green;
